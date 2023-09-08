@@ -28,7 +28,7 @@ def two_sum(nums,target):
         for i,n in enumerate(nums):
             diff=target-n
             if diff in numsdict:
-                print [numsdict[diff],i]
+                return [numsdict[diff],i]
             else:
                 numsdict[n]=i
 nums = [2, 7, 11, 15]
