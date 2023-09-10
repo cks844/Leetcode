@@ -21,3 +21,13 @@ class Solution:
         nums[:]=nums_new
         k=len(nums)
         return(k)   
+
+#Solution 2
+class Solution:
+    def removeDuplicates(self, nums: List[int]) -> int:
+        nums_new=set(nums)
+        k=len(nums_new)
+        nums[:]=nums_new
+        return(k)
+        
+
