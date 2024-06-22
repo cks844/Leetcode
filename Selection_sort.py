@@ -7,4 +7,4 @@ def selection_sort(arr:list)->list :
         arr[i], arr[min_index] = arr[min_index], arr[i]
     return print(arr)
  
-selection_sort([64,25,22,12,11])       
+selection_sort([64,22,12,25,11])       
