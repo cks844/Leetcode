@@ -3,10 +3,10 @@
 def max_subarray(arr:list) -> int :
     cur_sum = 0
     max_sum = float('-inf')
-    for i in range(len(arr)):
-        cur_sum += arr[i] 
+    for num in range(len(arr)):
+        cur_sum += arr[num] 
         max_sum = max(max_sum,cur_sum)
         if cur_sum < 0:
             cur_sum = 0 
-    return max_sum
+    return print(max_sum)
 max_subarray([-2,7,-3,4])     
