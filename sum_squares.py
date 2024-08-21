@@ -10,7 +10,8 @@ def sum_squares(num:int):
     if not new_list:
         return print("No squares with a sum",num)
     else:
-        return print(set(new_list))
+        return print(list(set(new_list)))
+
         
 if __name__ == "__main__":
     num = int(input("Enter the number:"))
