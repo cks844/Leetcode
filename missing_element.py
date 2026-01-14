@@ -11,7 +11,7 @@ def missing_element(arr:list) -> int:
     for i in arr:
         cur_sum += i 
     req_sum = 0
-    for i in range(arr[0],arr[len(arr)-1]+1):
+    for i in range(0,(len(arr)+1)+1]:
         req_sum += i
     return print(req_sum - cur_sum)
 missing_element([1,3,4])
