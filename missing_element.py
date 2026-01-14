@@ -1,6 +1,6 @@
 "Solution-1"
 def missing_element(arr:list) -> int:
-    for num in range(arr[0],len(arr)):
+    for num in range(1,(len(arr)+1)):
         if num not in arr:
             return print(num)
 missing_element([1,3,4])
